@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/booking-app/dist
+/booking-app/tmp
+/booking-app/out-tsc
+# Only exists if Bazel was run
+/booking-app/bazel-out
+
+# dependencies
+/booking-app/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/booking-app/.idea
+/booking-app.project
+/booking-app.classpath
+/booking-app.c9/
+/booking-app*.launch
+/booking-app.settings/
+/booking-app*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/booking-app/.sass-cache
+/booking-app/connect.lock
+/booking-app/coverage
+/booking-app/libpeerconnection.log
+/booking-app/npm-debug.log
+/booking-app/yarn-error.log
+/booking-app/testem.log
+/booking-app/typings
+
+# System Files
+/booking-app/.DS_Store
+/booking-app/Thumbs.db
